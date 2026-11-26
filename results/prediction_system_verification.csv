@@ -1,0 +1,4 @@
+Sample,Prediction Match,Probabilities Match,Probability Sum Valid
+Sample 1 - Lower Glucose and BMI,True,True,True
+Sample 2 - Higher Glucose and BMI,True,True,True
+Sample 3 - Missing-Value Indicators,True,True,True
