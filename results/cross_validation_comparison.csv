@@ -1,0 +1,5 @@
+Model,Optimal K,Weights,Distance Metric,Imputation,Scaler,SMOTE,Selection Metric,CV Accuracy (%),CV Precision (%),CV Recall (%),CV F1-Score (%),CV ROC-AUC,SMOTE Ratio,SMOTE Neighbors,Imputer Neighbors
+Version 1 - Baseline KNN,13,uniform,euclidean,Median,StandardScaler,No,Accuracy,77.52365720378516,72.09848484848484,60.32115171650055,65.31977789657385,0.828248892580288,,,
+Version 2 - Hyperparameter Optimized KNN,13,uniform,euclidean,Median,StandardScaler,No,F1-Score,77.52365720378516,72.09848484848484,60.32115171650055,65.31977789657385,0.828248892580288,,,
+Version 3 - SMOTE-KNN,21,distance,euclidean,Median,StandardScaler,Yes,F1-Score,76.21351459416233,63.17113642632236,80.38759689922482,70.43122709603963,0.8359281561461795,0.9,3.0,
+Version 4 - Advanced Preprocessing KNN,25,distance,euclidean,KNN,MinMaxScaler,Yes,F1-Score,76.37478341996534,62.741425126594116,82.24806201550388,70.95755298722082,0.8402879291251384,1.0,5.0,3.0

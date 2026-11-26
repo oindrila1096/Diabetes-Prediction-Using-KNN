@@ -1,0 +1,7 @@
+Sample,Model,Optimal K,Predicted Outcome,Non-Diabetic Probability (%),Diabetic Probability (%)
+Sample 1 - Lower Glucose and BMI,Version 1 - Baseline KNN,13,Non-Diabetic,100.0,0.0
+Sample 1 - Lower Glucose and BMI,Version 4 - Final Optimized KNN,25,Non-Diabetic,100.0,0.0
+Sample 2 - Higher Glucose and BMI,Version 1 - Baseline KNN,13,Diabetic,15.384615384615385,84.61538461538461
+Sample 2 - Higher Glucose and BMI,Version 4 - Final Optimized KNN,25,Diabetic,4.038933860495942,95.96106613950406
+Sample 3 - Missing-Value Indicators,Version 1 - Baseline KNN,13,Diabetic,38.46153846153847,61.53846153846154
+Sample 3 - Missing-Value Indicators,Version 4 - Final Optimized KNN,25,Diabetic,28.073973243848165,71.92602675615184
