@@ -189,6 +189,40 @@ All exported experimental results are available in the [results directory](resul
 
 Dataset information and download instructions are available in the [dataset directory](dataset/).
 
+## Project Visualizations
+
+### 1. Baseline KNN Confusion Matrix
+
+The baseline model produced 26 false-negative classifications, motivating further optimization.
+
+![Baseline Confusion Matrix](visualizations/baseline_confusion_matrix.png)
+
+### 2. Effect of SMOTE Class Balancing
+
+The following graph demonstrates the effect of full SMOTE balancing on the training class distribution.
+
+![SMOTE Class Distribution](visualizations/smote_class_distribution.png)
+
+### 3. Model Improvement Journey
+
+Cross-validation recall and F1-score improved through SMOTE-based optimization and advanced preprocessing.
+
+![Model Improvement Journey](visualizations/model_improvement_journey.png)
+
+### 4. Baseline vs Final Optimized Model
+
+The final model maintained testing accuracy while improving recall and F1-score, with trade-offs in precision, specificity and ROC-AUC.
+
+![Model Performance Comparison](visualizations/model_performance_comparison.png)
+
+### 5. Classification Error Analysis
+
+False negatives were reduced by 50%, from 26 to 13 records, while false positives increased from 18 to 31 records.
+
+![Classification Error Analysis](visualizations/false_negative_comparison.png)
+
+Additional graphs, including ROC curves, comparative confusion matrices and interactive prediction demonstrations, are available in the [visualizations directory](visualizations/).
+
 ## How to Run the Project
 
 1. Download the required dataset from Kaggle.
